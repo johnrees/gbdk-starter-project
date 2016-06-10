@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Gameboy Game</title>
+  <style type="text/css" media="screen">
+    canvas {
+      display: block;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -o-crisp-edges;
+      image-rendering: -moz-crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+      border: 20px solid #918B94;
+      border-radius: 2px;
+    }
+    * {
+      border: 0;
+      margin: 0;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      background: #DDE0E7;
+      min-height: 100%;
+      background: #AAA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <script type="text/javascript">
+    window.romSrc = "rom/game.gb";
+  </script>
+</head>
+<body>
+
+  <canvas id="screen" width="320" height="288"></canvas>
+  <script src="js/game.js"></script>
+
+</body>
+</html>

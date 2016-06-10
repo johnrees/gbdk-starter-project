@@ -1,0 +1,26 @@
+{
+  "name": "gbdk-starter-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrees/gbdk-starter-project.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrees/gbdk-starter-project/issues"
+  },
+  "homepage": "https://github.com/johnrees/gbdk-starter-project#readme",
+  "dependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.0.0",
+    "gulp-shell": "^0.5.2"
+  }
+}
